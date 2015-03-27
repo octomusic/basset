@@ -1,6 +1,6 @@
 {
-  "name": "primer-css",
-  "version": "2.0.2",
+  "name": "basset-css",
+  "version": "0.1.0",
   "ignore": [
     "docs/",
     "script/",
@@ -12,7 +12,7 @@
     "Rakefile"
   ],
   "main": [
-    "scss/primer.scss"
+    "scss/basset.scss"
   ],
   "dependencies": {
     "octicons": "*",

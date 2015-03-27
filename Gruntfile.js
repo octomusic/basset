@@ -13,7 +13,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'css/primer.css': 'scss/primer.scss'
+          'css/basset.css': 'scss/basset.scss'
         }
       }
     },
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
           'TotalImportantKeywords',
           'TotalMediaQueries'
         ],
-        file: "css/.primer-stats.md",
+        file: "css/.basset-stats.md",
         usePackage: true
       },
       src: [
@@ -82,7 +82,7 @@ module.exports = function(grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:primer/primer.git',
+          remote: 'git@github.com:octomusic/basset.git',
           branch: 'gh-pages'
         }
       }
